@@ -20,16 +20,11 @@ public:
         {
             if(nums[i]<=nums[i-1])
             {
-                if(nums[i]<nums[i-1]){
-                cnt+=2;
-                nums[i]+=2;
-                }
-                else{
-                    cnt+=1;
-                    nums[i]+=1;
-                }
+                cnt+=abs(nums[i]-nums[i-1])+1;
+                nums[i]+=abs(nums[i]-nums[i-1])+1;
             }
         }
         return cnt;
     }
 };
+//Lazy technique->apna kam asan krke dusre ko kam de dena.
