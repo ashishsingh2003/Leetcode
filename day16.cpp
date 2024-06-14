@@ -28,3 +28,4 @@ public:
     }
 };
 //Lazy technique->apna kam asan krke dusre ko kam de dena.
+//whenever ther is need of changement to element but we have take care of all element we use it
