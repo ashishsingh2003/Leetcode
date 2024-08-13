@@ -8,7 +8,7 @@
 
 // For example, if we have an ordered list of 5 books, we might place the first and second book onto the first shelf, the third book on the second shelf, and the fourth and fifth book on the last shelf.
 // Return the minimum possible height that the total bookshelf can be after placing shelves in this manner.
-
+//so here if you think that problem can be solved by includion and exclusion but not possible in practical then you can use bottom up approach
  class Solution {
 public:
     int minHeightShelves(vector<vector<int>>& books, int shelfwidth) {
